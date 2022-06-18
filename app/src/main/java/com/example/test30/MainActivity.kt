@@ -1,5 +1,6 @@
 package com.example.test30
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -12,7 +13,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)//xml레이아웃 띄우고
 
         binding.btn.setOnClickListener {
-            Toast.makeText(this,"토스트",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"activity main 2로 갑니다",Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this,MainActivity2::class.java))
         }
     }
 }

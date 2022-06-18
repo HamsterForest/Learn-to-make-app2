@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical|end"
+        android:layout_margin="40dp"
+        android:gravity="center"
+        android:onClick="DDuck"
+        android:id="@+id/tv"
+        android:textSize="40sp"
+        android:background="#FFC107"
+        android:textColor="@color/kkh_love"
+        android:text="무언가 입력" />
+
+    <TextView
+        android:layout_width="278dp"
+        android:layout_height="208dp"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="40dp"
+        android:autoSizeTextType="uniform"
+
+        android:drawableBottom="@mipmap/ic_launcher"
+        android:drawableTint="#802893DC"
+        android:drawableTintMode="add"
+
+        android:gravity="center"
+        android:text="무언가 입력"
+        android:textColor="#000000"
+
+        android:onClick="ZZIck"
+        android:id="@+id/tv2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다음으로 버튼"
+        android:textSize="40sp"
+        android:layout_margin="30dp"
+        android:id="@+id/btn2"/>
+</FrameLayout>
