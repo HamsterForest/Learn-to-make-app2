@@ -16,5 +16,10 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this,"activity main 2로 갑니다",Toast.LENGTH_SHORT).show()
             startActivity(Intent(this,MainActivity2::class.java))
         }
+
+        binding.logbtn.setOnClickListener {
+            Toast.makeText(this,"activity main 4로 갑니다",Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this,MainActivity4::class.java))
+        }
     }
 }
